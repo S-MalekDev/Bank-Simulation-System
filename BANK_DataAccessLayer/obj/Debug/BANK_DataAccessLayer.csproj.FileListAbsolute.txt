@@ -1,0 +1,6 @@
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_DataAccessLayer\bin\Debug\BANK_DataAccessLayer.dll
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_DataAccessLayer\bin\Debug\BANK_DataAccessLayer.pdb
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_DataAccessLayer\obj\Debug\BANK_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_DataAccessLayer\obj\Debug\BANK_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_DataAccessLayer\obj\Debug\BANK_DataAccessLayer.dll
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_DataAccessLayer\obj\Debug\BANK_DataAccessLayer.pdb

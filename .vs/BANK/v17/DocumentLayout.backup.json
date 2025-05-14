@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|c:\\users\\dell\\desktop\\bank project\\bank\\bank\\project classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|solutionrelative:bank\\project classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|c:\\users\\dell\\desktop\\bank project\\bank\\bank\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|solutionrelative:bank\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|c:\\users\\dell\\desktop\\bank project\\bank\\bank\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|solutionrelative:bank\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|c:\\users\\dell\\desktop\\bank project\\bank\\bank\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|solutionrelative:bank\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|c:\\users\\dell\\desktop\\bank project\\bank\\bank\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE070078-DFB1-43DE-99F0-990E54C7D10D}|BANK\\BANK.csproj|solutionrelative:bank\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\App.config",
+              "RelativeDocumentMoniker": "BANK\\App.config",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\App.config",
+              "RelativeToolTip": "BANK\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-14T18:29:02.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\Project Classes\\clsGlobal.cs",
+              "RelativeDocumentMoniker": "BANK\\Project Classes\\clsGlobal.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\Project Classes\\clsGlobal.cs",
+              "RelativeToolTip": "BANK\\Project Classes\\clsGlobal.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAEwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:27:13.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "BANK\\Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\Login\\frmLogin.cs",
+              "RelativeToolTip": "BANK\\Login\\frmLogin.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAawFkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:26:32.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "BANK\\Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\Login\\frmLogin.cs [Design]",
+              "RelativeToolTip": "BANK\\Login\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:26:30.367Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\frmMain.cs",
+              "RelativeDocumentMoniker": "BANK\\frmMain.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\BANK Project\\BANK\\BANK\\frmMain.cs [Design]",
+              "RelativeToolTip": "BANK\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:39:20.783Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

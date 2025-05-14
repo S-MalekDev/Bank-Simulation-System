@@ -1,0 +1,9 @@
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\bin\Debug\BANK_BusinessLayer.dll
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\bin\Debug\BANK_BusinessLayer.pdb
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\bin\Debug\BANK_DataAccessLayer.dll
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\bin\Debug\BANK_DataAccessLayer.pdb
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\obj\Debug\BANK_BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\obj\Debug\BANK_BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\obj\Debug\BANK_Bus.A3424FCD.Up2Date
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\obj\Debug\BANK_BusinessLayer.dll
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK_BusinessLayer\obj\Debug\BANK_BusinessLayer.pdb

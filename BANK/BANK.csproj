@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE070078-DFB1-43DE-99F0-990E54C7D10D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BANK</RootNamespace>
+    <AssemblyName>BANK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\frmAddNewBankAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmAddNewBankAccount.Designer.cs">
+      <DependentUpon>frmAddNewBankAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmManageAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmManageAccounts.Designer.cs">
+      <DependentUpon>frmManageAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\frmManageClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients\frmManageClients.Designer.cs">
+      <DependentUpon>frmManageClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Controls\ctrlShowBankAccountInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Accounts\Controls\ctrlShowBankAccountInfo.Designer.cs">
+      <DependentUpon>ctrlShowBankAccountInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmShowBankAccountInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmShowBankAccountInfo.Designer.cs">
+      <DependentUpon>frmShowBankAccountInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Controls\ctrlShowClientInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clients\Controls\ctrlShowClientInfo.Designer.cs">
+      <DependentUpon>ctrlShowClientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\frmShowClientInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients\frmShowClientInfo.Designer.cs">
+      <DependentUpon>frmShowClientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Controls\ctrlShowFullBankAccountInfobyFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Accounts\Controls\ctrlShowFullBankAccountInfobyFilter.Designer.cs">
+      <DependentUpon>ctrlShowFullBankAccountInfobyFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Controls\ctrlShowClientInfobyFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clients\Controls\ctrlShowClientInfobyFilter.Designer.cs">
+      <DependentUpon>ctrlShowClientInfobyFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Controls\ctrlShowBankAccountInfoByFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Accounts\Controls\ctrlShowBankAccountInfoByFilter.Designer.cs">
+      <DependentUpon>ctrlShowBankAccountInfoByFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalTransferOperations\frmExternalTransferOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExternalTransferOperations\frmExternalTransferOperations.Designer.cs">
+      <DependentUpon>frmExternalTransferOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client History\frmClientHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client History\frmClientHistory.Designer.cs">
+      <DependentUpon>frmClientHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client History\frmShowExternalTransactionRowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client History\frmShowExternalTransactionRowDetails.Designer.cs">
+      <DependentUpon>frmShowExternalTransactionRowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client History\frmShowInternalTransactionRowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client History\frmShowInternalTransactionRowDetails.Designer.cs">
+      <DependentUpon>frmShowInternalTransactionRowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client History\frmShowWithdrawDepositRowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client History\frmShowWithdrawDepositRowDetails.Designer.cs">
+      <DependentUpon>frmShowWithdrawDepositRowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\frmManageServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\frmManageServices.Designer.cs">
+      <DependentUpon>frmManageServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction Types\frmManageTransactionTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction Types\frmManageTransactionTypes.Designer.cs">
+      <DependentUpon>frmManageTransactionTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer Types\frmManageTransferTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer Types\frmManageTransferTypes.Designer.cs">
+      <DependentUpon>frmManageTransferTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\frmUpdateService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\frmUpdateService.Designer.cs">
+      <DependentUpon>frmUpdateService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction Types\frmUpdateTransactionType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction Types\frmUpdateTransactionType.Designer.cs">
+      <DependentUpon>frmUpdateTransactionType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer Types\frmUpdateTransferType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer Types\frmUpdateTransferType.Designer.cs">
+      <DependentUpon>frmUpdateTransferType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternalTransferOperations\frmInternalTransferOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternalTransferOperations\frmInternalTransferOperation.Designer.cs">
+      <DependentUpon>frmInternalTransferOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WithdrawAndDepositTransactions\frmWithdrawAndDepositTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawAndDepositTransactions\frmWithdrawAndDepositTransactions.Designer.cs">
+      <DependentUpon>frmWithdrawAndDepositTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project Classes\clsGlobal.cs" />
+    <Compile Include="Employees\ctrlShowEmployeeInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employees\ctrlShowEmployeeInfo.Designer.cs">
+      <DependentUpon>ctrlShowEmployeeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Controls\ctrlShowUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\Controls\ctrlShowUserInfo.Designer.cs">
+      <DependentUpon>ctrlShowUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmChangeUserPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmChangeUserPassword.Designer.cs">
+      <DependentUpon>frmChangeUserPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmShowUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmShowUserInfo.Designer.cs">
+      <DependentUpon>frmShowUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmManageUsers.Designer.cs">
+      <DependentUpon>frmManageUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Controls\ctrlShowPersonInfoByFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Controls\ctrlShowPersonInfoByFilter.Designer.cs">
+      <DependentUpon>ctrlShowPersonInfoByFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmAddNewUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddNewUpdateUser.Designer.cs">
+      <DependentUpon>frmAddNewUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project Classes\clsUtil.cs" />
+    <Compile Include="People\frmShowPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmShowPersonInfo.Designer.cs">
+      <DependentUpon>frmShowPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\Controls\ctrlShowPersonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Controls\ctrlShowPersonInfo.Designer.cs">
+      <DependentUpon>ctrlShowPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmAddNewUpdatePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmAddNewUpdatePerson.Designer.cs">
+      <DependentUpon>frmAddNewUpdatePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmManagePeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmManagePeople.Designer.cs">
+      <DependentUpon>frmManagePeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Accounts\Controls\ctrlShowBankAccountInfo.resx">
+      <DependentUpon>ctrlShowBankAccountInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients\Controls\ctrlShowClientInfo.resx">
+      <DependentUpon>ctrlShowClientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\Controls\ctrlShowFullBankAccountInfobyFilter.resx">
+      <DependentUpon>ctrlShowFullBankAccountInfobyFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients\Controls\ctrlShowClientInfobyFilter.resx">
+      <DependentUpon>ctrlShowClientInfobyFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\Controls\ctrlShowBankAccountInfoByFilter.resx">
+      <DependentUpon>ctrlShowBankAccountInfoByFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees\ctrlShowEmployeeInfo.resx">
+      <DependentUpon>ctrlShowEmployeeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmAddNewBankAccount.resx">
+      <DependentUpon>frmAddNewBankAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmManageAccounts.resx">
+      <DependentUpon>frmManageAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients\frmManageClients.resx">
+      <DependentUpon>frmManageClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmShowBankAccountInfo.resx">
+      <DependentUpon>frmShowBankAccountInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients\frmShowClientInfo.resx">
+      <DependentUpon>frmShowClientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExternalTransferOperations\frmExternalTransferOperations.resx">
+      <DependentUpon>frmExternalTransferOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client History\frmClientHistory.resx">
+      <DependentUpon>frmClientHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client History\frmShowExternalTransactionRowDetails.resx">
+      <DependentUpon>frmShowExternalTransactionRowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client History\frmShowInternalTransactionRowDetails.resx">
+      <DependentUpon>frmShowInternalTransactionRowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client History\frmShowWithdrawDepositRowDetails.resx">
+      <DependentUpon>frmShowWithdrawDepositRowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\frmManageServices.resx">
+      <DependentUpon>frmManageServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction Types\frmManageTransactionTypes.resx">
+      <DependentUpon>frmManageTransactionTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer Types\frmManageTransferTypes.resx">
+      <DependentUpon>frmManageTransferTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\frmUpdateService.resx">
+      <DependentUpon>frmUpdateService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction Types\frmUpdateTransactionType.resx">
+      <DependentUpon>frmUpdateTransactionType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer Types\frmUpdateTransferType.resx">
+      <DependentUpon>frmUpdateTransferType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternalTransferOperations\frmInternalTransferOperation.resx">
+      <DependentUpon>frmInternalTransferOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawAndDepositTransactions\frmWithdrawAndDepositTransactions.resx">
+      <DependentUpon>frmWithdrawAndDepositTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\Controls\ctrlShowUserInfo.resx">
+      <DependentUpon>ctrlShowUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmChangeUserPassword.resx">
+      <DependentUpon>frmChangeUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmShowUserInfo.resx">
+      <DependentUpon>frmShowUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmManageUsers.resx">
+      <DependentUpon>frmManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Controls\ctrlShowPersonInfoByFilter.resx">
+      <DependentUpon>ctrlShowPersonInfoByFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddNewUpdateUser.resx">
+      <DependentUpon>frmAddNewUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmShowPersonInfo.resx">
+      <DependentUpon>frmShowPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Controls\ctrlShowPersonInfo.resx">
+      <DependentUpon>ctrlShowPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmAddNewUpdatePerson.resx">
+      <DependentUpon>frmAddNewUpdatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmManagePeople.resx">
+      <DependentUpon>frmManagePeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BANK_BusinessLayer\BANK_BusinessLayer.csproj">
+      <Project>{e030bc62-50a0-4024-b393-341cf34cec2f}</Project>
+      <Name>BANK_BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client Withdaw history 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client Deposit History 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Man Default Pictuer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woman Default Picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gendor Male 72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gendor Femal 72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Activate User 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deactivate user 32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
