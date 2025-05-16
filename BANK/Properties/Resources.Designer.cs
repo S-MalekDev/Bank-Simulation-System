@@ -103,6 +103,16 @@ namespace BANK.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap deposit {
+            get {
+                object obj = ResourceManager.GetObject("deposit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gendor_Femal_72 {
             get {
                 object obj = ResourceManager.GetObject("Gendor Femal 72", resourceCulture);
@@ -126,6 +136,16 @@ namespace BANK.Properties {
         internal static System.Drawing.Bitmap Man_Default_Pictuer {
             get {
                 object obj = ResourceManager.GetObject("Man Default Pictuer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap withdrawal {
+            get {
+                object obj = ResourceManager.GetObject("withdrawal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

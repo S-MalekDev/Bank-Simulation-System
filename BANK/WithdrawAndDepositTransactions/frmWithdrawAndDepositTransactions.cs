@@ -8,7 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Resources;
 using static BANK_BusinessLayer.clsTransactionTypes;
+using BANK.Properties;
 
 namespace BANK
 {
@@ -61,7 +63,7 @@ namespace BANK
                             lblTransactionType.Text = transactionTypes.Name;
                             lblOperationFees.Text = $"{_OperationFeesPerDollar = (transactionTypes.Fees + clsServices.Find(clsServices.enService.Transactions).Fees)} $";
                             btnOperation.Text = "Withdraw";
-                            btnOperation.Image = Image.FromFile(@"C:\Users\DELL\Desktop\BANK Project\PROJECT Emages & Icones\withdrawal.png");
+                            btnOperation.Image = Resources.withdrawal;
                             break;
                         }
                     case enMode.Deposit:
@@ -74,7 +76,7 @@ namespace BANK
                             lblTransactionType.Text = transactionTypes.Name;
                             lblOperationFees.Text = $"{_OperationFeesPerDollar = (transactionTypes.Fees + clsServices.Find(clsServices.enService.Transactions).Fees)} $";
                             btnOperation.Text = "Deposit";
-                            btnOperation.Image = Image.FromFile(@"C:\Users\DELL\Desktop\BANK Project\PROJECT Emages & Icones\deposit.png");
+                            btnOperation.Image = Resources.deposit;
                             break;
                         }
                 }
