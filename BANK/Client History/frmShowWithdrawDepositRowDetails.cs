@@ -28,14 +28,14 @@ namespace BANK
                     case clsTransactionTypes.enTransactionTypes.Withdraw:
                         {
                             pbWithdrawDeposit.Image = Resources.Client_Withdaw_history_512;
-                            pbTransactionType.Image = Image.FromFile(@"C:\Users\DELL\Desktop\BANK Project\PROJECT Emages & Icones\Withdraw 32.png");
+                            pbTransactionType.Image = Resources.withdrawal;
                             this.Text = "Withdraw details";
                             break;
                         }
                     case clsTransactionTypes.enTransactionTypes.Deposit:
                         {
                             pbWithdrawDeposit.Image = Resources.Client_Deposit_History_512 ;
-                            pbTransactionType.Image = Image.FromFile(@"C:\Users\DELL\Desktop\BANK Project\PROJECT Emages & Icones\Deposit 32.png");
+                            pbTransactionType.Image = Resources.deposit;
                             this.Text = "Deposit details";
                             break;
                         }

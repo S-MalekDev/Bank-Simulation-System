@@ -48,3 +48,4 @@ C:\Users\DELL\Desktop\BANK Project\BANK\BANK\obj\Debug\BANK.frmClientHistory.res
 C:\Users\DELL\Desktop\BANK Project\BANK\BANK\obj\Debug\BANK.frmShowExternalTransactionRowDetails.resources
 C:\Users\DELL\Desktop\BANK Project\BANK\BANK\obj\Debug\BANK.frmShowInternalTransactionRowDetails.resources
 C:\Users\DELL\Desktop\BANK Project\BANK\BANK\obj\Debug\BANK.frmShowWithdrawDepositRowDetails.resources
+C:\Users\DELL\Desktop\BANK Project\BANK\BANK\obj\Debug\BANK.exe.config

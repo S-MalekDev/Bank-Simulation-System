@@ -157,6 +157,10 @@ namespace BANK
 
         private void ctrlShowAccountInfobyFilter1_OnAccountSelected(int obj)
         {
+            if(_Account != null && _Account.AccountNumber != obj)
+                lblOperationID.Text = "[???]";
+
+
             tbAmount.Enabled = true;
             tbAmount.Clear();
             tbAmount.Focus();
@@ -212,6 +216,7 @@ namespace BANK
         {
             tbAmount.Clear();
             tbAmount.Focus();
+            lblOperationID.Text = "[???]";
 
             if (rbWithdraw.Checked)
                 Mode = enMode.Withdraw;
