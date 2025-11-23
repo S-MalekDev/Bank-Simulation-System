@@ -2,7 +2,8 @@
 
 [![.NET Framework](https://img.shields.io/badge/.NET-Framework-blue)](https://dotnet.microsoft.com/en-us/download/dotnet-framework)  
 [![C#](https://img.shields.io/badge/language-C%23-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/)  
-[![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-green)](https://www.microsoft.com/en-us/sql-server)
+[![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-green)](https://www.microsoft.com/en-us/sql-server)  
+[![ADO.NET](https://img.shields.io/badge/Data%20Access-ADO.NET-orange)](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/)
 
 ---
 
@@ -35,6 +36,7 @@ The project is developed using WinForms and C# on the .NET Framework with a SQL 
 - Application Type: WinForms  
 - Framework: .NET Framework  
 - Database: SQL Server  
+- Data Access Technology: ADO.NET  
 - Implemented OOP principles with a layered architecture:  
   - UI Layer  
   - Business Layer  
@@ -48,7 +50,7 @@ The project is organized in a layered architecture that supports scalability and
 
 - **UI Layer:** Contains WinForms interfaces and user interaction.  
 - **Business Layer:** Contains business logic and rules.  
-- **Data Access Layer:** Handles database interactions with SQL Server.  
+- **Data Access Layer:** Handles database interactions with SQL Server using ADO.NET.  
 - **Models:** Represents system entities and data using classes.  
 
 ---
